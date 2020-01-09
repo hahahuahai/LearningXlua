@@ -1,0 +1,2 @@
+print("Test3Main")
+print("Test3.test3=",require("Test3").test3)
