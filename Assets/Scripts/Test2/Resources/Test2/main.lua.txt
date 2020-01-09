@@ -1,0 +1,2 @@
+require "Test2/test"
+print("main lua")
