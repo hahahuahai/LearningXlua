@@ -1,6 +1,6 @@
 # LearningXlua
 
-这个项目主要用于自学xlua，基于2020/01/09Xlua的版本。里面有自己针对每个xlua的特性对应的示例代码（assets/Scenes目录下），这些示例代码是在官方示例代码基础上进行编写的，有的类似，有的有所扩充。
+这个项目主要用于自学xlua，基于2020/01/09Xlua的版本。里面有自己针对每个xlua的特性对应的示例代码（assets/Scenes目录下），这些示例代码是在[官方示例代码](https://github.com/Tencent/xLua/tree/master/Assets/XLua/Tutorial)基础上进行编写的，有的类似，有的有所扩充。
 
 ## 示例代码说明
 
