@@ -1,0 +1,19 @@
+a = 4
+b = "LuaString"
+c = true
+t1 = {f1 = 100,f2 = 101}
+t2 = {
+	f1 = 1,f2 = 2,
+	add = function(self,a,b)
+		print("t2.add called!")
+		return a + b
+		end
+}
+t3 = {
+1,2,3,4,5
+}
+addLua = function(a,b)
+	print("t2.add called!")
+	return a + b
+	end
+print("Test4Lua")
