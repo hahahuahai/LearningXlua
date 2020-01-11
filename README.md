@@ -4,7 +4,7 @@
 
 ## 示例代码说明
 
-示例代码是根据XLua官方文档进行编写，可以结合[文档]([https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/XLua%E6%95%99%E7%A8%8B.md](https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/XLua教程.md))来看。
+示例代码是根据XLua官方文档进行编写，可以结合[文档](https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/XLua教程.md)来看。
 
 ### 1.Lua文件加载
 
