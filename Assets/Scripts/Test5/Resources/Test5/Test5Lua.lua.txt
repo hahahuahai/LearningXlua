@@ -1,0 +1,24 @@
+print("Test5Lua")
+
+-- new C#对象
+local go = CS.UnityEngine.GameObject("CreatedInLua")
+
+-- 访问C#静态属性，方法
+print("读静态属性，如Time.deltaTime：",CS.UnityEngine.Time.deltaTime)
+CS.UnityEngine.Time.timeScale = 0.5
+print("写静态属性，如Time.timeScale：",CS.UnityEngine.Time.timeScale)
+local goInScene = CS.UnityEngine.GameObject.Find("CreatedInLua")
+print("调用静态方法：",goInScene.transform.localPosition)
+
+-- 访问C#成员属性，方法
+local csharpclass = CS.Test.CSharpClass()
+print("csharpclass.s:",csharpclass.s)
+local returnstring = csharpclass:CalledByLuaFunction()
+print("returnstring:",returnstring)
+print("csharpclass.s:",csharpclass.s)
+
+-- (后面的特性建议参考官方示例LuaCallCs)
+
+
+
+

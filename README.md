@@ -22,5 +22,7 @@
 
 （3）访问一个全局的function：Test4.unity
 
+### 3.Lua访问C#
 
+Test5.unity。这一块建议直接参考官方案例，比较全。
 
